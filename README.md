@@ -8,9 +8,15 @@ A web camera is initialized using the Arduino and the baud rate is set to 9600 b
 The object detection module from the Tensor Flow library is used for detection of different shapes. When the camera detects a square shape, the end effector of the robotic arm pushes the shape away from the conveyor belt and collected seperately. Whereas, the other shapes passes through the belt and reach the other side.
 
 arm_1.ino --> Setting up motors
+
 arm_2.ino --> Setting the angles (Servo Motors)
+
 camera1.ino --> Interfacing the Camera
+
 speed_control.ino --> Controlling the speed of the Motor of the Conveyor Belt
+
 object_detection.py --> Object/Shape Detection 
+
 Unity_3D_final.mp4 --> Digital Twin Implementation using Unity 3D software
+
 conveyor_belt_final.mp4 --> Physical Implementation 
